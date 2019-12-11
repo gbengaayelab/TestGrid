@@ -108,9 +108,9 @@
   			<p class="text-center"><div class="spinner-border"></div></p>
   			<p>This is the what it looks like to allow Bootstrap Hold Preference by itself</p>
 
-  			<div class="container border my-3 p-3">
-		<div class="table-responsive-sm">
-			<table class="table table-lg table-striped text-justify table-dark table-bordered table-hover">
+  			<div class="container-sm container-lg border my-3 p-3">
+			<div class="table-responsive-sm table-responsive-lg">
+			<table class="table table-sm table-lg table-striped text-justify table-dark table-bordered table-hover">
 				<thead class="thead-dark">
 					<tr>
 						<th>Firstname</th>
@@ -163,22 +163,14 @@
 
 				</div>
 			</div>
-
 		</div>
 		</div>
+	</div>
 		<!-- Section for Main Middle Content Ends here-->
 
-		<div class="alert alert-success border alert-dismissible ">
-				<button type="button" class="close" data-dismiss="alert">&times;</button>
-				<p><strong>Success!</strong> Read this Message</a>
-				</p>	
-		</div>
-
-	</div>
-
-  		</div>
+		
   		<div class="col-sm-3 bg-white my-3 p-3 border">
-  			<div class="jumbotron bg-primary text-white">
+  			<div class="jumbotron bg-secondary text-white">
   			<h1>This is Third Colum</h1>
   			<p>This is a side Nav Paragraph for Ads., for Side Navigations</p>
   			<p>Create a new tab with this shortcut <kbd>Contrl+Tab</kbd></p>
@@ -188,24 +180,45 @@
  			 </blockquote>
  			 </div>
   		</div>
+  		
+
+
 	</div>
-	<div class="alert alert-dark p-3 my-3 border alert-dismissible ">
-				<button type="button" class="close" data-dismiss="alert">&times;
-				</button>
-				<p><strong>Privacy:</strong> We collect useful data from users for the benefits of serving you better and fast load time. Read a copy of our Policy statement here
-					<a href="#" class="text-danger">Policy statement</a>
-				</p>	
+		
+	<div class="row bg-primary border">
+		<div class="col-sm-12 col-lg-12">	
+
+			<div class="alert alert-dark p-3 my-3 border alert-dismissible ">
+					<button type="button" class="close" data-dismiss="alert">&times;
+					</button>
+					<p><strong>Privacy:</strong> We collect useful data from users for the benefits of serving you better and fast load time. Read a copy of our Policy statement here
+						<a href="#" class="text-danger">Policy statement</a>
+					</p>	
+			</div>
 		</div>
-	<div class="container borderless rounded p-3 my-3">
-		<ul class="pagination justify-content-center">
-			<li class="page-item"><a class="page-link" href="#">Previous</a></li>
-			<li class="page-item"><a class="page-link" href="#">1</a></li>
-			<li class="page-item"><a class="page-link" href="#">2</a></li>
-			<li class="page-item"><a class="page-link" href="#">Next</a></li>
+	</div>		
 
 
+	<div class="row bg-primary border">
+		<div class="col-sm-12 col-lg-12">
+			<div class="container borderless rounded p-3 my-3">
+				<ul class="pagination justify-content-center">
+					<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+					<li class="page-item"><a class="page-link" href="#">1</a></li>
+					<li class="page-item"><a class="page-link" href="#">2</a></li>
+					<li class="page-item"><a class="page-link" href="#">Next</a></li>
+				</ul>
+
+			</div>
+		</div>
 	</div>
-	<div class="footer border text-white-50 bg-dark p-4 my-4 rounded text-center">This is powered by Tekisense
+
+
+	<div class="row bg-primary border">
+		<div class="col-sm-12 col-lg-12">
+			<div class="footer border text-white-50 bg-dark p-4 my-4 rounded text-center">This is powered by Tekisense
+			</div>
+		</div>
 	</div>
 </body>
 </html>
