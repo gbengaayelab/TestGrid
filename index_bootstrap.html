@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Bootstrap4 Layout</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+	
+	<div class="container-fluid container-sm p-3 my-3 bg-dark text-white border rounded" >
+		<!--
+
+		<h1 class="display-4">My First Fixed Bootstrap Page. Xtra Large <small>Container</small></h1>
+		<p>This is another Paragraph</p>
+
+	-->
+	<img src="img/about_gbenga.jpg" class="img-thumbnail img-fluid img-sm" alt="This is Tekisense">
+	</div>	
+
+	<!--
+	<div class="container-lg p-3 my-3 bg-dark text-white border" >
+		<h1>My Second Fixed Bootstrap Page. Large Container</h1>
+		<p>This is another Paragraph</p>
+	</div>	
+	<div class="container-sm p-3 my-3 text-dark border" >
+		<h1>My Second Fixed Bootstrap Page. Medium Container</h1>
+		<p>This is another Paragraph</p>
+	</div>
+	<div class="container-sm p-3 my-3 bg-primary text-white border" >
+		<h1>My First Fixed Bootstrap Page. Small Container</h1>
+		<p>This is another Paragraph</p>
+	</div>
+	-->	
+	
+	<div class="row bg-primary border">
+  		<div class="col-sm-3 bg-white border my-3 p-3"> 
+  			<div class="jumbotron bg-dark-50">
+  			<h1>This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
+  			
+  			<div class="spinner-grow text-danger"></div>
+  			
+
+  			<p>This is for <abbr class="text-primary" title="Left Hand Side">LHS</abbr> Site Navigations</p>
+  			<dl>
+  				<dt>Jollof Rice</dt>
+  				<dd>- Nigerian style for rice sauced with pepper, tomato and vegetable oil</dd>
+  			</dl>
+  			<p>
+  				These are the recipes for the Jollof Rice:<br>
+  				<code>pepper,<br> tomato,<br> onion,<br> ginger,<br> garlic</code> <br>
+
+
+  				<button type="button" class="btn btn-primary">Button1 <span class="badge-pill badge-dark">Badge</span></button>
+
+
+  			<div class="btn-group-sm btn-group">
+  				
+  				<button type="button" class="btn btn-primary">Button1</button>
+
+
+  				<button type="button" class="btn btn-primary">Button2</button>
+
+
+  				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">iPhone</button>
+				<div class="dropdown-menu">
+					<a href="#" class="dropdown-item">iphone 11max</a>
+					<a href="#" class="dropdown-item">iphone 7s</a>
+					<a href="#" class="dropdown-item">iphone 11</a>					
+
+				</div>
+			</div>
+				<br>
+  				<a href="#" class="btn btn-info p-3 my-3" role="button">Link Button</a><br>
+
+  				<input type="button" name="submit" class="btn btn-danger active p-3 my-3" value="Submit Button"> <br>
+
+  				<button class="btn btn-primary">
+  					<span class="spinner-border spinner-border-sm"></span>Loading..
+
+  				</button>
+  				<button class="btn btn-primary">
+  					<span class="spinner-grow spinner-grow-sm"></span>Loading..
+
+  				</button>
+  			</p>
+  			
+  			</div>
+  			<div class="progress">
+  				<div class="progress-bar-striped progress-bar-animated text-white text-center bg-success" style="width:70%">70%</div>
+<!--
+  				<div class="progress-bar-striped progress-bar-animated text-white text-center bg-warning" style="width:30%">30%</div>
+  -->
+  			</div>
+  			<br>
+  			<div class="spinner-grow text-danger"></div>
+  			<div class="spinner-grow text-dark"></div>
+  		</div>
+
+  		<!-- This is The section for Main Middle Content-->
+
+  		<div class="col-sm-6 bg-white my-3 p-3 border">
+  			<h1 class="text-center display-1 text-primary">This is Main Content</h1>
+  			<p class="lead text-white-50 text-center bg-dark ">Welcome to Tekisense</p> 
+  			<p class="text-center"><div class="spinner-border"></div></p>
+  			<p>This is the what it looks like to allow Bootstrap Hold Preference by itself</p>
+
+  			<div class=" container-lg container-sm  border my-3 p-3">
+		<div class="table-responsive-sm">
+			<table class="table table-lg table-striped text-justify table-dark table-bordered table-hover">
+				<thead class="thead-dark">
+					<tr>
+						<th>Firstname</th>
+						<th>Lastname</th>
+						<th>Email</th>
+						<th>Age</th>
+						<th>Sex</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr class="table-warning text-dark">
+						<td>John</td>
+						<td>Doe</td>
+						<td>john@example.com</td>
+						<td>12 years</td>
+						<td>Male</td>
+					</tr>
+
+					<tr class="table-danger text-dark">
+						<td>Mary</td>
+						<td>Moe</td>
+						<td>mary@example.com</td>
+						<td>29 years</td>
+						<td>Female</td>
+					</tr>
+
+					<tr class="table-success text-dark">
+						<td>July</td>
+						<td>Dooley</td>
+						<td>july@example.com</td>
+						<td>40 years</td>
+						<td>Male</td>
+					</tr>
+				</tbody>
+
+			</table>
+			<ul class="list-group">
+				<li class="list-group-item list-group-item-danger">First List</li>
+				<li class="list-group-item">Second List</li>
+				<li class="list-group-item">Third List</li>
+
+			</ul>
+			<div class="container-fluid container-sm pt-3 pb-3 pl-0 pr-0 my-2">
+				<div class="list-group">
+					<a href="#" class="list-group-item list-group-item-success list-group-item-action ">Clickable List<span class="badge-primary badge-pill float-right">12</span></a>
+					<a href="#" class="list-group-item list-group-item-action
+					">Second List <span class="badge-primary badge-pill rounded float-right">13</span></a>
+					<a href="#"  class="list-group-item list-group-item-action">Third List</a>
+
+				</div>
+			</div>
+
+		</div>
+		</div>
+		<!-- Section for Main Middle Content Ends here-->
+
+		<div class="alert alert-success border alert-dismissible ">
+				<button type="button" class="close" data-dismiss="alert">&times;</button>
+				<p><strong>Success!</strong> Read this Message</a>
+				</p>	
+		</div>
+
+	</div>
+
+  		</div>
+  		<div class="col-sm-3 bg-white my-3 p-3 border">
+  			<div class="jumbotron bg-primary text-white">
+  			<h1>This is Third Colum</h1>
+  			<p>This is a side Nav Paragraph for Ads., for Side Navigations</p>
+  			<p>Create a new tab with this shortcut <kbd>Contrl+Tab</kbd></p>
+  			<blockquote class="blockquote">
+   			 	<p class="text-justify">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    			<footer class="blockquote-footer text-white">Gbenga A</footer>
+ 			 </blockquote>
+ 			 </div>
+  		</div>
+	</div>
+	<div class="alert alert-dark p-3 my-3 border alert-dismissible ">
+				<button type="button" class="close" data-dismiss="alert">&times;
+				</button>
+				<p><strong>Privacy:</strong> We collect useful data from users for the benefits of serving you better and fast load time. Read a copy of our Policy statement here
+					<a href="#" class="text-danger">Policy statement</a>
+				</p>	
+		</div>
+	<div class="container container-sm borderless rounded p-3 my-3">
+		<ul class="pagination justify-content-center">
+			<li class="page-item"><a class="page-link" href="#">Previous</a></li>
+			<li class="page-item"><a class="page-link" href="#">1</a></li>
+			<li class="page-item"><a class="page-link" href="#">2</a></li>
+			<li class="page-item"><a class="page-link" href="#">Next</a></li>
+
+
+	</div>
+	<div class="footer border text-white-50 bg-dark p-4 my-4 rounded text-center">This is powered by Tekisense
+	</div>
+</body>
+</html>
