@@ -13,7 +13,7 @@
 	<div class="row bg-light">
 		
 		
-		<div class="col-md-12 border rounded my-0 p-0 bg-light">
+		<div class="col-md-12 border rounded my-1 p-1 bg-light">
 			
 			<!-- Nav tabs 	
 			<ul class="nav nav-pills nav-justified">
@@ -28,7 +28,7 @@
 				
 				 <!-- Navbar links -->
 				 <div class="collapse navbar-collapse" id="collapsibleNavbar">
-						 <ul class="navbar-nav">
+						 <ul class="navbar-nav ">
 						<li class="nav-item ">
 							<a href="#home" class="nav-link active" data-toggle="tab">Home</a>
 						</li>
