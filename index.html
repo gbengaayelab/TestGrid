@@ -10,16 +10,41 @@
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
+	<div class="row bg-primary border">
+		
+		
+		<div class="col-sm-12 col-lg-12 my-3 p-3 ">
+			<div class="jumbotron my-4 p-4">
+			<!-- Nav tabs -->	
+			<ul class="nav nav-pills nav-justified">
+				
+				<li class="nav-item">
+					<a href="#home" class="nav-link active" data-toggle="tab">Home</a>
+				</li>
+				<li class="nav-item">
+					<a href="#services" class="nav-link" data-toggle="tab">Our Services</a>
+				</li>
+				<li class="nav-item">
+					<a href="#products" class="nav-link" data-toggle="tab">Products Overview</a>
+				</li>
+
+			</ul>
+			<!-- Tab panes -->
+<div class="tab-content">
+				
+
+<div class="tab-pane container active" id="home">
+					<!-- Tab panes><h3 class="display-3">Welcome to Teki Home</h3>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+				<div class="container-fluid p-3 my-3 bg-dark text-white border rounded" >
 	
-	<div class="container-fluid p-3 my-3 bg-dark text-white border rounded" >
-		<!--
 
 		<h1 class="display-4">My First Fixed Bootstrap Page. Xtra Large <small>Container</small></h1>
 		<p>This is another Paragraph</p>
 
 	-->
 	<img src="img/about_gbenga.jpg" class="img-thumbnail img-fluid" alt="This is Tekisense">
-	</div>	
+		
 
 	<!--
 	<div class="container-lg p-3 my-3 bg-dark text-white border" >
@@ -257,28 +282,7 @@
 	</div>
 </div>
 
-<div class="row bg-primary border">
-		
-		<div class="col-sm-12 col-lg-12">
-			<div class="jumbotron my-3 p-3">
-			
-			<ul class="nav justify-content-center">
-				
-				<li class="nav-item">
-					<a href="#" class="nav-link">Nav Item 1</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Nav Item 2</a>
-				</li>
-				<li class="nav-item">
-					<a href="#" class="nav-link">Nav Item 3</a>
-				</li>
 
-			</ul>
-
-			</div>
-		</div>
-	</div>
 
 
 
@@ -288,6 +292,29 @@
 			</div>
 		</div>
 	</div>
+			
+	</div>
+
+
+
+
+				<div class="tab-pane container" id="services">
+					<h3 class="display-3">Our Services Overview</h3>
+					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+				</div>
+
+
+				<div class="tab-pane container" id="products">
+					<h3 class="display-3">Our Products Overview</h3>
+					<p>Lorem Ipsum Products<br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
+				</div>
+
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	
 
 
 </body>
