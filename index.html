@@ -22,7 +22,7 @@
 					<a href="#home" class="nav-link active" data-toggle="tab">Home</a>
 				</li>
 				<li class="nav-item">
-					<a href="#services" class="nav-link" data-toggle="tab">Our Services</a>
+					<a href="#profile" class="nav-link" data-toggle="tab">Profile</a>
 				</li>
 				<li class="nav-item">
 					<a href="#products" class="nav-link" data-toggle="tab">Products Overview</a>
@@ -298,11 +298,71 @@
 
 
 
-				<div class="tab-pane container" id="services">
+				<div class="tab-pane container" id="profile">
 					<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
-					<h3 class="display-3">Our Services Overview</h3>
+					<h3 class="display-3 text-primary">Profile Overview</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
+					
+					<div class="jumbotron bg-dark-50">
+					<div class="card my-0 p-0 border-warning rounded">
+						
+						<div class="card-header border">
+							<h4 class="card-title text-center text-light rounded bg-dark text-primary"> Profile Overview</h4>
+							<img src="img/img_avatar1.png" class="card-img-top img-thumbnail rounded" style="width: 250px" >
+						</div>
+
+						<div class="card-body border">
+							<p class="text-left mt-1 pt-1">
+							<h4 class="display-4 text-center text-primary">Gbenga Ayelabola</h4>
+							<lead class="text-secondary"><strong>-Frontend Developer</strong></lead>
+							<p>
+								<dl>
+									<dt>
+										<h4 class="display-4 text-left text-primary"> Stack:</h4>
+									</dt>
+
+										<mark><code><abbr title="Hypertext Markup Language">HTML:</abbr></code></mark>
+										<dd class="border pl-3 my-3 rounded border-warning"><pre></pre> <span class="badge badge-secondary pill">HTML5</span>
+										</dd>
+										
+										<mark><code><abbr title="Cascading style Sheet V3">CSS3:</abbr></code></mark>
+										<dd class="border pl-3 my-3 border-warning rounded">
+
+											<pre></pre><span class="badge badge-secondary rounded">Grid</span>
+											<span class="badge badge-secondary rounded">Flexible designs</span>
+											<span class="badge badge-secondary pill">Responsive Designs</span>
+
+										</dd>
+										<mark><code><code>Javascript:</code></code>
+										<dd class=" border pl-3 my-3  rounded border-warning">
+											<pre></pre>
+											<span class="badge badge-secondary pill">Vanilla JS</span>
+											
+											<span class="badge badge-secondary pill">React</span>
+
+											<span class="badge badge-secondary pill">ReactNative</span>
+
+										</dd>
+
+								</dl>	
+							</p>
+							
+
+							</p>
+						
+						<div class="row my-3 p-3">
+							<button class="btn btn-primary">See Profile</button>
+						</div>
+
+						</div>
+					
+						<div class="card-footer bg-dark text-center my-3 p-3 text-light border rounded">
+						Powered by Bootstrap Card
+						</div>
+					</div>
+				</div>
+
 				</div>
 
 
