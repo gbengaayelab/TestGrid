@@ -36,22 +36,23 @@
 	</div>
 	-->	
 	
-	<div class="row bg-primary border">
+	<div class="row bg-light border">
   		<div class="col-sm-3 bg-white border my-3 p-3"> 
-  			<div class="jumbotron bg-dark-50">
-  			<h1>This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
+  			<div class="jumbotron bg-danger">
+  			<h1 class="text-white
+  			">This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
   			
-  			<div class="spinner-grow text-danger"></div>
+  			<div class="spinner-grow text-white"></div>
   			
 
-  			<p>This is for <abbr class="text-primary" title="Left Hand Side">LHS</abbr> Site Navigations</p>
-  			<dl>
+  			<p class="text-white">This is for <abbr class="text-white" title="Left Hand Side">LHS</abbr> Site Navigations</p>
+  			<dl class="text-white">
   				<dt>Jollof Rice</dt>
   				<dd>- Nigerian style for rice sauced with pepper, tomato and vegetable oil</dd>
   			</dl>
-  			<p>
+  			<p class="text-white">
   				These are the recipes for the Jollof Rice:<br>
-  				<code>pepper,<br> tomato,<br> onion,<br> ginger,<br> garlic</code> <br>
+  				<code class="text-white">pepper,<br> tomato,<br> onion,<br> ginger,<br> garlic</code> <br>
 
 
   				<button type="button" class="btn btn-primary">Button1 <span class="badge-pill badge-dark">Badge</span></button>
@@ -64,13 +65,18 @@
 
   				<button type="button" class="btn btn-primary">Button2</button>
 
+  			<div class="dropdown">		
+  				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Apple</button>
+				<div class="dropdown-menu dropdown-menu-left">
+					<div class="dropdown-header">Iphone Models</div>
 
-  				<button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">iPhone</button>
-				<div class="dropdown-menu">
 					<a href="#" class="dropdown-item">iphone 11max</a>
 					<a href="#" class="dropdown-item">iphone 7s</a>
-					<a href="#" class="dropdown-item">iphone 11</a>					
+					<a href="#" class="dropdown-item">iphone 11</a>
+					<div class="dropdown-divider"></div>			
+					<a href="#" class="dropdown-item">Another Item</a>
 
+				</div>
 				</div>
 			</div>
 				<br>
@@ -170,13 +176,13 @@
 
 		
   		<div class="col-sm-3 bg-white my-3 p-3 border">
-  			<div class="jumbotron bg-secondary text-white">
+  			<div class="jumbotron bg-white text-dark">
   			<h1>This is Third Colum</h1>
   			<p>This is a side Nav Paragraph for Ads., for Side Navigations</p>
   			<p>Create a new tab with this shortcut <kbd>Contrl+Tab</kbd></p>
   			<blockquote class="blockquote">
-   			 	<p class="text-justify">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
-    			<footer class="blockquote-footer text-white">Gbenga A</footer>
+   			 	<p class="">For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.</p>
+    			<footer class="blockquote-footer text-white">Gbenga A.</footer>
  			 </blockquote>
  			 </div>
   		</div>
@@ -185,10 +191,10 @@
 
 	</div>
 		
-	<div class="row bg-primary border">
+	<div class="row bg-light border rounded">
 		<div class="col-sm-12 col-lg-12">	
 
-			<div class="alert alert-dark p-3 my-3 border alert-dismissible ">
+			<div class="alert alert-dark p-3 my-3 border alert-dismissible">
 					<button type="button" class="close" data-dismiss="alert">&times;
 					</button>
 					<p><strong>Privacy:</strong> We collect useful data from users for the benefits of serving you better and fast load time. Read a copy of our Policy statement here
@@ -199,7 +205,7 @@
 	</div>		
 
 
-	<div class="row bg-primary border">
+	<div class="row bg-light border rounded">
 		<div class="col-sm-12 col-lg-12">
 			<div class="container borderless rounded p-3 my-3">
 				<ul class="pagination justify-content-center">
@@ -214,11 +220,74 @@
 	</div>
 
 
+<div class="row bg-light border">
+		<div class="col-sm-12 col-lg-12">
+			<div class="container border bg-light p-4 my-4 rounded text-center">
+				<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Collapse Me</button>
+				<div id="demo" class="collapse">
+					 This very one is collapsible 
+				</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="row bg-light border">
+		<div class="col-sm-12 col-lg-12 text-center">
+			
+			<div id="accordion">
+				<div class="card">
+					<div class="card-header">
+					<a class="card-link" data-toggle="collapse" href="#referenceIt">
+						This is first Accordion
+					</a>
+					</div>
+
+					<div id="referenceIt" class="collapse hide" data-parent="#accordion">
+					<div class="card-body" >
+						Child element of Accordion
+					</div>
+					</div>
+
+				</div>
+
+
+			</div>
+
+	</div>
+</div>
+
+<div class="row bg-primary border">
+		
+		<div class="col-sm-12 col-lg-12">
+			<div class="my-3 p-3">
+			<ul class="nav">
+				
+				<li class="nav-item">
+					<a href="#" class="nav-link">Nav Item 1</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Nav Item 2</a>
+				</li>
+				<li class="nav-item">
+					<a href="#" class="nav-link">Nav Item 3</a>
+				</li>
+
+			</ul>
+			
+			</div>
+		</div>
+	</div>
+
+
+
 	<div class="row bg-primary border">
 		<div class="col-sm-12 col-lg-12">
 			<div class="footer border text-white-50 bg-dark p-4 my-4 rounded text-center">This is powered by Tekisense
 			</div>
 		</div>
 	</div>
+
+
 </body>
 </html>
