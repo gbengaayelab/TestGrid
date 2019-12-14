@@ -10,11 +10,11 @@
  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
-	<div class="row bg-primary border">
+	<div class="row bg-light">
 		
 		
-		<div class="col-sm-12 col-lg-12 my-3 p-3 ">
-			<div class="jumbotron my-4 p-4">
+		<div class="col-md-12 border rounded my-4 p-4 bg-light">
+			
 			<!-- Nav tabs -->	
 			<ul class="nav nav-pills nav-justified">
 				
@@ -35,15 +35,15 @@
 
 <div class="tab-pane container active" id="home">
 					<!-- Tab panes><h3 class="display-3">Welcome to Teki Home</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiumdod tempor incididunt ut labore et dolore magna aliqua.</p>
 				<div class="container-fluid p-3 my-3 bg-dark text-white border rounded" >
 	
 
-		<h1 class="display-4">My First Fixed Bootstrap Page. Xtra Large <small>Container</small></h1>
+		<h1 class="display-4">My First Fixed Bootstrap Page. Xtra Large <mdall>Container</mdall></h1>
 		<p>This is another Paragraph</p>
 
 	-->
-	<img src="img/about_gbenga.jpg" class="img-thumbnail img-fluid" alt="This is Tekisense">
+	<img src="img/about_gbenga.jpg" class=" my-3 p-3 img-fluid img-thumbnail" alt="This is Tekisense">
 		
 
 	<!--
@@ -51,18 +51,18 @@
 		<h1>My Second Fixed Bootstrap Page. Large Container</h1>
 		<p>This is another Paragraph</p>
 	</div>	
-	<div class="container-sm p-3 my-3 text-dark border" >
+	<div class="container-md p-3 my-3 text-dark border" >
 		<h1>My Second Fixed Bootstrap Page. Medium Container</h1>
 		<p>This is another Paragraph</p>
 	</div>
-	<div class="container-sm p-3 my-3 bg-primary text-white border" >
-		<h1>My First Fixed Bootstrap Page. Small Container</h1>
+	<div class="container-md p-3 my-3 bg-primary text-white border" >
+		<h1>My First Fixed Bootstrap Page. mdall Container</h1>
 		<p>This is another Paragraph</p>
 	</div>
 	-->	
 	
 	<div class="row bg-light border">
-  		<div class="col-sm-3 bg-white border my-3 p-3"> 
+  		<div class="col-md-3 bg-white border my-3 p-3"> 
   			<div class="jumbotron bg-danger">
   			<h1 class="text-white
   			">This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
@@ -83,7 +83,7 @@
   				<button type="button" class="btn btn-primary">Button1 <span class="badge-pill badge-dark">Badge</span></button>
 
 
-  			<div class="btn-group-sm btn-group">
+  			<div class="btn-group-md btn-group">
   				
   				<button type="button" class="btn btn-primary">Button1</button>
 
@@ -110,11 +110,11 @@
   				<input type="button" name="submit" class="btn btn-danger active p-3 my-3" value="Submit Button"> <br>
 
   				<button class="btn btn-primary">
-  					<span class="spinner-border spinner-border-sm"></span>Loading..
+  					<span class="spinner-border spinner-border-md"></span>Loading..
 
   				</button>
   				<button class="btn btn-primary">
-  					<span class="spinner-grow spinner-grow-sm"></span>Loading..
+  					<span class="spinner-grow spinner-grow-md"></span>Loading..
 
   				</button>
   			</p>
@@ -133,15 +133,15 @@
 
   		<!-- This is The section for Main Middle Content-->
 
-  		<div class="col-sm-6 bg-white my-3 p-3 border">
+  		<div class="col-md-6 bg-white my-3 p-3 border">
   			<h1 class="text-center display-1 text-primary">This is Main Content</h1>
   			<p class="lead text-white-50 text-center bg-dark ">Welcome to Tekisense</p> 
   			<p class="text-center"><div class="spinner-border"></div></p>
   			<p>This is the what it looks like to allow Bootstrap Hold Preference by itself</p>
 
-  			<div class="container-sm container-lg border my-3 p-3">
-			<div class="table-responsive-sm table-responsive-lg">
-			<table class="table table-sm table-lg table-striped text-justify table-dark table-bordered table-hover">
+  			<div class="container-md container-lg border my-3 p-3">
+			<div class="table-responsive-md table-responsive-lg">
+			<table class="table table-md table-lg table-striped text-justify table-dark table-bordered table-hover">
 				<thead class="thead-dark">
 					<tr>
 						<th>Firstname</th>
@@ -200,7 +200,7 @@
 		<!-- Section for Main Middle Content Ends here-->
 
 		
-  		<div class="col-sm-3 bg-white my-3 p-3 border">
+  		<div class="col-md-3 bg-white my-3 p-3 border">
   			<div class="jumbotron bg-white text-dark">
   			<h1>This is Third Colum</h1>
   			<p>This is a side Nav Paragraph for Ads., for Side Navigations</p>
@@ -217,10 +217,10 @@
 	</div>
 		
 	<div class="row bg-light border rounded">
-		<div class="col-sm-12 col-lg-12">	
+		<div class="col-md-12 col-lg-12">	
 
-			<div class="alert alert-dark p-3 my-3 border alert-dismissible">
-					<button type="button" class="close" data-dismiss="alert">&times;
+			<div class="alert alert-dark p-3 my-3 border alert-dimdissible">
+					<button type="button" class="close" data-dimdiss="alert">&times;
 					</button>
 					<p><strong>Privacy:</strong> We collect useful data from users for the benefits of serving you better and fast load time. Read a copy of our Policy statement here
 						<a href="#" class="text-danger">Policy statement</a>
@@ -231,7 +231,7 @@
 
 
 	<div class="row bg-light border rounded">
-		<div class="col-sm-12 col-lg-12">
+		<div class="col-md-12 col-lg-12">
 			<div class="container borderless rounded p-3 my-3">
 				<ul class="pagination justify-content-center">
 					<li class="page-item"><a class="page-link" href="#">Previous</a></li>
@@ -246,7 +246,7 @@
 
 
 <div class="row bg-light border">
-		<div class="col-sm-12 col-lg-12">
+		<div class="col-md-12 col-lg-12">
 			<div class="container border bg-light p-4 my-4 rounded text-center">
 				<button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">Collapse Me</button>
 				<div id="demo" class="collapse">
@@ -258,7 +258,7 @@
 
 
 <div class="row bg-light border">
-		<div class="col-sm-12 col-lg-12 text-center">
+		<div class="col-md-12 col-lg-12 text-center">
 			
 			<div id="accordion">
 				<div class="card">
@@ -287,7 +287,7 @@
 
 
 	<div class="row bg-primary border">
-		<div class="col-sm-12 col-lg-12">
+		<div class="col-md-12 col-lg-12">
 			<div class="footer border text-white-50 bg-dark p-4 my-4 rounded text-center">This is powered by Tekisense
 			</div>
 		</div>
@@ -310,8 +310,10 @@
 				</div>
 
 			</div>
-			</div>
+			 
 		</div>
+
+
 	</div>
 	
 	
