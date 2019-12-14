@@ -13,7 +13,7 @@
 	<div class="row bg-light">
 		
 		
-		<div class="col-md-12 border rounded my-1 p-1 bg-light">
+		<div class="col-md-12 border rounded my-0 p-0 bg-light">
 			
 			<!-- Nav tabs 	
 			<ul class="nav nav-pills nav-justified">
@@ -45,15 +45,18 @@
 								<a href="#" class="dropdown-item">Compute Services</a>
 							</div>
 						</li>
-
-
-					</ul>
-				</div>
-				<form class="form-inline" action="#">
-					<input type="text" name="text" class="border rounded form-control mr-sm-2" placeholder="Search">
+					
+					<!--
+					<form class="form-inline" action="#">
+					<input type="text" name="text" class="border rounded form-control mr-sm-2 float-right" placeholder="Search">
 					<button class="btn btn-success" type="submit">Search</button>
 
-				</form>
+					</form>
+					-->
+					</ul>
+					
+				</div>
+				
 			</nav>
 			<!-- Tab panes -->
 <div class="tab-content">
@@ -69,6 +72,9 @@
 		<p>This is another Paragraph</p>
 
 	-->
+	<pre> 
+
+	</pre>
 	<img src="img/about_gbenga.jpg" class=" my-1 p-1 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 
@@ -88,7 +94,7 @@
 	-->	
 	
 	<div class="row bg-light my-1 p-1 border">
-  		<div class="col-md-3 bg-white text-left border my-1 p-1"> 
+  		<div class="col-md-3 bg-white text-left border my-0 p-0"> 
   			<div class="jumbotron bg-danger">
   			<h1 class="text-white text-left">This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
   			
