@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Bootstrap4 Layout</title>
+	<title>Frontend Developer</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -13,22 +13,36 @@
 	<div class="row bg-light">
 		
 		
-		<div class="col-md-12 border rounded my-4 p-4 bg-light">
+		<div class="col-md-12 border rounded my-0 p-0 bg-light">
 			
-			<!-- Nav tabs -->	
+			<!-- Nav tabs 	
 			<ul class="nav nav-pills nav-justified">
-				
-				<li class="nav-item">
-					<a href="#home" class="nav-link active" data-toggle="tab">Home</a>
-				</li>
-				<li class="nav-item">
-					<a href="#profile" class="nav-link" data-toggle="tab">Profile</a>
-				</li>
-				<li class="nav-item">
-					<a href="#products" class="nav-link" data-toggle="tab">Products Overview</a>
-				</li>
+				-->
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+				<a class="navbar-brand" href="index.html"><img src="img/img_avatar1.png" class="img-fluid img-thumbnail" style="width:40px"></a>
+				<!-- Toggler/collapsibe Button -->
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+					<span class="navbar-toggler-icon"></span>
 
-			</ul>
+				</button>
+				
+				 <!-- Navbar links -->
+				 <div class="collapse navbar-collapse" id="collapsibleNavbar">
+						 <ul class="navbar-nav">
+						<li class="nav-item ">
+							<a href="#home" class="nav-link active" data-toggle="tab">Home</a>
+						</li>
+						<li class="nav-item">
+							<a href="#profile" class="nav-link" data-toggle="tab">Profile</a>
+						</li>
+						<li class="nav-item">
+							<a href="#products" class="nav-link" data-toggle="tab">Products Overview</a>
+						</li>
+
+
+					</ul>
+				</div>
+			</nav>
 			<!-- Tab panes -->
 <div class="tab-content">
 				
@@ -301,7 +315,7 @@
 				<div class="tab-pane container" id="profile">
 					<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
-					<h3 class="display-3 text-primary">Profile Overview</h3>
+					<h3 class="display-3 text-primary">Profile Offer</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 					
 					<div class="jumbotron bg-dark-50">
