@@ -260,8 +260,9 @@
 <div class="row bg-primary border">
 		
 		<div class="col-sm-12 col-lg-12">
-			<div class="my-3 p-3">
-			<ul class="nav">
+			<div class="jumbotron my-3 p-3">
+			
+			<ul class="nav justify-content-center">
 				
 				<li class="nav-item">
 					<a href="#" class="nav-link">Nav Item 1</a>
@@ -274,7 +275,7 @@
 				</li>
 
 			</ul>
-			
+
 			</div>
 		</div>
 	</div>
