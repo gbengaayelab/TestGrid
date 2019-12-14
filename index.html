@@ -18,7 +18,7 @@
 			<!-- Nav tabs 	
 			<ul class="nav nav-pills nav-justified">
 				-->
-			<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+			<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
 				<a class="navbar-brand" href="index.html"><img src="img/img_avatar1.png" class="img-fluid img-thumbnail" style="width:40px"></a>
 				<!-- Toggler/collapsibe Button -->
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -38,10 +38,22 @@
 						<li class="nav-item">
 							<a href="#products" class="nav-link" data-toggle="tab">Products Overview</a>
 						</li>
+						<li class="nav-item dropdown">
+							<a href="#" class="nav-link dropdown-toggle" id="navbardrop" data-toggle="dropdown">Services</a>
+							<div class="dropdown-menu">
+								<a href="#" class="dropdown-item">Software development</a>
+								<a href="#" class="dropdown-item">Compute Services</a>
+							</div>
+						</li>
 
 
 					</ul>
 				</div>
+				<form class="form-inline" action="#">
+					<input type="text" name="text" class="border rounded form-control mr-sm-2" placeholder="Search">
+					<button class="btn btn-success" type="submit">Search</button>
+
+				</form>
 			</nav>
 			<!-- Tab panes -->
 <div class="tab-content">
@@ -57,7 +69,7 @@
 		<p>This is another Paragraph</p>
 
 	-->
-	<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
+	<img src="img/about_gbenga.jpg" class=" my-1 p-1 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 
 	<!--
@@ -76,7 +88,7 @@
 	-->	
 	
 	<div class="row bg-light my-1 p-1 border">
-  		<div class="col-md-3 bg-white text-left border my-0 p-0"> 
+  		<div class="col-md-3 bg-white text-left border my-1 p-1"> 
   			<div class="jumbotron bg-danger">
   			<h1 class="text-white text-left">This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
   			
@@ -146,11 +158,11 @@
 
   		<!-- This is The section for Main Middle Content-->
 
-  		<div class="col-md-6 bg-white text-left border my-0 p-0">
+  		<div class="col-md-6 bg-white text-left border my-1 p-1">
   			<h1 class="text-center display-1 text-primary">This is Main Content</h1>
   			<p class="lead text-white-50 text-center bg-dark ">Welcome to Tekisense</p> 
   			<p class="text-center"><div class="spinner-border"></div></p>
-  			<p>This is the what it looks like to allow Bootstrap Hold Preference by itself</p>
+  			<p class="text-center">This is the what it looks like to allow Bootstrap Hold Preference by itself</p>
 
   			<div class="container-md container-lg border my-3 p-3">
 			<div class="table-responsive-md table-responsive-lg">
@@ -213,7 +225,7 @@
 		<!-- Section for Main Middle Content Ends here-->
 
 		
-  		<div class="col-md-3 bg-white text-left border my-0 p-0">
+  		<div class="col-md-3 bg-white text-left border my-1 p-1">
   			<div class="jumbotron bg-white text-dark">
   			<h1>This is Third Colum</h1>
   			<p>This is a side Nav Paragraph for Ads., for Side Navigations</p>
@@ -313,13 +325,13 @@
 
 
 				<div class="tab-pane container" id="profile">
-					<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
+					<img src="img/about_gbenga.jpg" class=" my-1 p-1 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 					<h3 class="display-3 text-primary">Profile Offer</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 					
 					<div class="jumbotron bg-dark-50">
-					<div class="card my-0 p-0 border-warning rounded">
+					<div class="card my-1 p-1 border-warning rounded">
 						
 						<div class="card-header border">
 							<h4 class="card-title text-center text-light rounded bg-dark text-primary"> Profile Overview</h4>
@@ -381,7 +393,7 @@
 
 
 				<div class="tab-pane container" id="products">
-					<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
+					<img src="img/about_gbenga.jpg" class=" my-1 p-1 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 					<h3 class="display-3">Our Products Overview</h3>
 					<p>Lorem Ipsum Products<br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
