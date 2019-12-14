@@ -43,7 +43,7 @@
 		<p>This is another Paragraph</p>
 
 	-->
-	<img src="img/about_gbenga.jpg" class=" my-3 p-3 img-fluid img-thumbnail" alt="This is Tekisense">
+	<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 
 	<!--
@@ -61,11 +61,10 @@
 	</div>
 	-->	
 	
-	<div class="row bg-light border">
-  		<div class="col-md-3 bg-white border my-3 p-3"> 
+	<div class="row bg-light my-1 p-1 border">
+  		<div class="col-md-3 bg-white text-left border my-0 p-0"> 
   			<div class="jumbotron bg-danger">
-  			<h1 class="text-white
-  			">This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
+  			<h1 class="text-white text-left">This is<pre></pre> <mark>Responsive </mark><pre></pre> Layout</h1><br>
   			
   			<div class="spinner-grow text-white"></div>
   			
@@ -133,7 +132,7 @@
 
   		<!-- This is The section for Main Middle Content-->
 
-  		<div class="col-md-6 bg-white my-3 p-3 border">
+  		<div class="col-md-6 bg-white text-left border my-0 p-0">
   			<h1 class="text-center display-1 text-primary">This is Main Content</h1>
   			<p class="lead text-white-50 text-center bg-dark ">Welcome to Tekisense</p> 
   			<p class="text-center"><div class="spinner-border"></div></p>
@@ -200,7 +199,7 @@
 		<!-- Section for Main Middle Content Ends here-->
 
 		
-  		<div class="col-md-3 bg-white my-3 p-3 border">
+  		<div class="col-md-3 bg-white text-left border my-0 p-0">
   			<div class="jumbotron bg-white text-dark">
   			<h1>This is Third Colum</h1>
   			<p>This is a side Nav Paragraph for Ads., for Side Navigations</p>
@@ -218,6 +217,7 @@
 		
 	<div class="row bg-light border rounded">
 		<div class="col-md-12 col-lg-12">	
+
 
 			<div class="alert alert-dark p-3 my-3 border alert-dimdissible">
 					<button type="button" class="close" data-dimdiss="alert">&times;
@@ -299,12 +299,16 @@
 
 
 				<div class="tab-pane container" id="services">
+					<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
+		
 					<h3 class="display-3">Our Services Overview</h3>
 					<p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
 				</div>
 
 
 				<div class="tab-pane container" id="products">
+					<img src="img/about_gbenga.jpg" class=" my-0 p-0 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
+		
 					<h3 class="display-3">Our Products Overview</h3>
 					<p>Lorem Ipsum Products<br>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam. </p>
 				</div>
