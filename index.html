@@ -314,6 +314,38 @@
 	</div>
 </div>
 
+<div class="row bg-light border">
+		<div class="col-md-12 col-lg-12">
+			<div class="container border bg-light p-4 my-4 rounded">
+				 <form action="#" class="was-validated">
+					<div class="form-group">
+						<label for="email">Email Address:</label>
+						<input type="email" name="email" class="form-control" required placeholder="Enter Email">
+						 <div class="valid-feedback">Valid.</div>
+  					  <div class="invalid-feedback">Please fill out this field.</div>
+					</div>
+
+
+					<div class="form-group">
+						<label for="pwd">Password:</label>
+						<input type="password" name="password" required class="form-control"placeholder="Enter password">
+						<div class="valid-feedback">Valid.</div>
+    					<div class="invalid-feedback">Please fill out this field.</div> 
+					</div>
+					<div class="form-group form-check">
+    				<label class="form-check-label">
+    					<input class="form-check-input" type="checkbox" name="remember" required> I agree on terms and Condition of the Site.
+					<div class="valid-feedback">Valid.</div>
+    				<div class="invalid-feedback">Please fill out this field.</div>
+		    		</label>
+		    		</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+					
+
+				</form>
+			</div>
+	</div>
+</div>
 
 
 
@@ -331,6 +363,10 @@
 
 
 				<div class="tab-pane container" id="profile">
+					<pre> 
+
+					</pre>
+
 					<img src="img/about_gbenga.jpg" class=" my-1 p-1 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 					<h3 class="display-3 text-primary">Profile Offer</h3>
@@ -399,6 +435,10 @@
 
 
 				<div class="tab-pane container" id="products">
+					<pre> 
+
+					</pre>
+
 					<img src="img/about_gbenga.jpg" class=" my-1 p-1 img-fluid img-thumbnail" alt="This is Tekisense" style="width: 100%">
 		
 					<h3 class="display-3">Our Products Overview</h3>
